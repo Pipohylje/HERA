@@ -1,0 +1,41 @@
+{
+
+  "uptime_seconds": 30,
+  "current_date": "mar 12 2026",
+  "errors": [],
+
+  "avatars": [
+    {
+      "id": "IRIS-01",
+      "battery_percentage": 72,
+      "errors": [],
+      
+      "vision": {
+        "objects": [
+          {"id": "cup_1"},
+          {"id": "table_1"}
+        ],
+        "people": [
+          {"id": "person_1", "description": "standing still"}
+        ]
+      },
+    
+      "audio": {
+        "last_speech": "Good morning HERA. Perform systems check and tell me if there are any problems.",
+        "speaker": "person_1"
+      }
+    },
+    {
+      "id": "IRIS-02",
+      "battery_percentage": null,
+      "errors": ["connection lost"],
+      
+      "vision": {
+        "objects": [],
+        "people": []
+      },
+    
+      "audio": {}
+    }
+  ]
+}
